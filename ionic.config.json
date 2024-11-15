@@ -1,0 +1,8 @@
+{
+  "name": "MIAPP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "0c1c2490"
+}
