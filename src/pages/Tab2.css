@@ -1,0 +1,117 @@
+.card-reservation-container {
+  background-color: #d6eee5;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  padding: 500 100px; /* Espaciado interno opcional */
+  box-sizing: border-box;
+  align-content: center;
+  
+}
+
+.car-image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.discount {
+  color: green;
+  font-weight: bold;
+}
+
+.total-price {
+  font-size: 1.2em;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+ion-card {
+  margin: 0;
+  width: 100%;
+  padding: 2rem;
+  align-content: center;
+}
+
+ion-button {
+  margin-top: 10px;
+}
+
+.button-row {
+  margin-top: 20px;
+  text-align: center;
+  color:  #d6eee5;
+}
+
+/* Footer */
+#footer {
+  position: static; /* Fija el footer en su posición */
+  bottom: 0; /* Asegura que se mantenga en la parte inferior de la ventana */
+  left: 0; /* Se alinea al borde izquierdo */
+  width: 100%; /* Ocupa todo el ancho de la pantalla */
+  background-color: #54686e; /* Color de fondo del footer */
+  color: white; /* Color del texto */
+  text-align: center; /* Centra el contenido */
+  padding: 10px 0; /* Espaciado interno */
+  z-index: 100; /* Se asegura de que esté sobre otros elementos */
+}
+
+
+.footer {
+  background-color: #09ac47;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: white; /* Cambia el color de los íconos */
+  font-size: 24px; /* Tamaño del ícono */
+  margin-right: 10px; /* Espacio entre los íconos */
+  text-decoration: none; /* Quitar subrayado */
+}
+
+.social-icons a:hover {
+  color: #2a9d8f; /* Color al pasar el mouse */
+}
+
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+
+

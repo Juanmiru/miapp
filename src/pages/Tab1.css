@@ -1,0 +1,403 @@
+/* Fondo con imagen central */
+
+
+/* Contenedor para los botones al lado de la imagen */
+.buttons-container {
+  position: absolute;
+  top: 20px; /* Ajusta según la altura deseada desde la parte superior */
+  right: 20px; /* Los alinea a la derecha */
+  display: flex;
+  gap: 15px; /* Espacio entre los botones */
+  z-index: 10; /* Asegura que los botones estén por encima de la imagen */
+}
+.logo{ 
+  width: 10%;
+  height: 5%;
+}
+#head {
+  display: flex; /* Coloca los botones en una fila */
+  flex-wrap: nowrap; /* Evita que los botones bajen de línea */ /* Alinea los botones a la izquierda */
+  align-items: center; /* Centra verticalmente */
+  justify-content:flex;
+  gap: 10px; /* Espaciado uniforme entre botones */
+  margin: 0 auto; /* Centra el contenedor del menú */
+  padding: 10px; /* Agrega un poco de espacio interior */
+}
+.boton{
+  justify-content:flex ;
+}
+
+/* Estilo de los botones */
+ion-button {
+  
+  
+ 
+  --border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+}
+
+/* Efecto hover de los botones */
+ion-button:hover {
+  filter: brightness(0.9);
+}
+
+/* Ajustes de los botones cuando se hace hover */
+ion-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+
+/* Fondo general y bordes */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Title and Subtitle */
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: #2a9d8f; /* Tonalidad ecológica */
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Features Section */
+.features-title {
+  font-size: 1.6rem;
+  color: #264653;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Cards */
+ion-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0rem;
+}
+
+ion-card-content h4 {
+  font-size: 1.2rem;
+  color: #2a9d8f;
+  margin-bottom: 0.5rem;
+  width: 1000px;
+}
+
+ion-card-content p {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* IonButton Customizations */
+ion-button {
+  --background: #2a9d8f; /* Color base */
+  --border-radius: 8px; /* Bordes redondeados */
+  padding: 8px 12px; /* Ajusta el espacio interno del botón */
+  font-size: 1rem; /* Tamaño de texto uniforme */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  display: inline-block; /* Asegura proporciones correctas */
+}
+
+ion-button:hover {
+  filter: brightness(0.9);
+}
+
+/* IonItem Customization */
+ion-item {
+  --background: #fff;
+  --border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+ion-input {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Layout and Alignment */
+.ion-text-center {
+  text-align: center;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+ 
+ion-row {
+  margin-bottom: 1rem;
+}
+
+ion-col {
+  padding: 0.5rem;
+}
+
+/* General Card Styles */
+ion-card {
+  background-color: #ffffff; /* Fondo blanco para destacar el contenido */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 0rem; /* Separación externa */
+  overflow: hidden; /* Asegura que la imagen no sobresalga */
+  width: calc(30% - 1rem); /* Ajusta el ancho de las tarjetas al 50% del contenedor */
+}
+
+#carros {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  position: relative; /* Importante para posicionar los botones */
+}
+
+
+.n ion-card {
+  background-color: #ffffff; /* Fondo blanco para destacar el contenido */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 0rem; /* Separación externa */
+  overflow: hidden; /* Asegura que la imagen no sobresalga */
+  width: calc(90% - 0rem); /* Ajusta el ancho de las tarjetas al 50% del contenedor */
+  border: 0.5mm solid #19df83;
+}
+
+.o ion-card {
+  background-color: #ffffff; /* Fondo blanco para destacar el contenido */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 0rem; /* Separación externa */
+  overflow: hidden; /* Asegura que la imagen no sobresalga */
+  width: calc(90% - 0rem); /* Ajusta el ancho de las tarjetas al 50% del contenedor */
+  border: 0.5mm solid #19df83;
+}
+
+/* Image Styling */
+ion-card img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del card */
+  height: auto; /* Mantiene la proporción de la imagen */
+  object-fit: cover; /* Corta o ajusta la imagen para llenarla sin deformarse */
+  border-bottom: 4px solid #2a9d8f; /* Línea decorativa debajo de la imagen */
+}
+
+/* Card Header */
+ion-card-header {
+  padding: 1rem;
+  text-align: center;
+  background-color: #f9f9f9; /* Fondo ligeramente gris */
+  border-bottom: 1px solid #e0e0e0; /* Línea divisoria entre el header y el contenido */
+}
+
+/* Card Title */
+ion-card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2a9d8f; /* Tonalidad verde para destacar */
+  margin-bottom: 0.5rem;
+}
+
+/* Card Subtitle */
+ion-card-subtitle {
+  font-size: 1rem;
+  color: #666666; /* Gris oscuro */
+  font-weight: normal;
+}
+
+/* Card Content */
+ion-card-content {
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: #333333; /* Texto principal oscuro */
+  line-height: 1.5; /* Mejora la legibilidad */
+}
+
+/* Hover Effect (Optional) */
+ion-card:hover {
+  transform: translateY(-5px); /* Eleva el card ligeramente */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más intensa */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Estilo de la sección de búsqueda */
+#busqueda {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#devolucion {
+  display: flex;
+  flex-direction: column; /* Coloca los elementos en una sola columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  width: 100%; /* Asegura que el ancho ocupe todo el espacio disponible */
+   /* Espaciado entre filas */
+  /* Añade espacio alrededor */
+}
+
+/* Header con los botones alineados al lado de la imagen */
+
+/* Fondo general y bordes */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #53ffeb;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #53ffeb;
+  margin-bottom: 1.5rem;
+}
+/* Contenedor con imagen de fondo y difuminado gris */
+.background-section {
+  background-image: url('https://humanidades.com/wp-content/uploads/2017/03/ciudad-3-e1565900111723.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  position: relative; /* Necesario para superponer el gradiente */
+  padding: 20px; /* Ajusta el espaciado interno del contenedor */
+  border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
+/* Difuminado gris */
+.background-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(44, 116, 26, 0.6); /* Gris con opacidad */
+  z-index: 1; /* Asegura que el gradiente esté sobre la imagen */
+  border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
+/* Asegura que los elementos dentro del contenedor estén por encima del difuminado */
+.background-section > * {
+  position: relative;
+  z-index: 2;
+}
+/* Estilo para asegurar que las columnas ocupen toda la altura disponible */
+.ion-row {
+  display: flex;
+  flex-wrap: wrap; /* Esto permite que las columnas se ajusten en filas según el espacio disponible */
+}
+
+.ion-col {
+  display: flex;
+  justify-content: center; /* Centra las tarjetas dentro de las columnas */
+  align-items: stretch; /* Asegura que las columnas estiren las tarjetas a lo largo de la altura */
+  padding: 10px; /* Añadir un poco de espacio entre las tarjetas */
+  height: 100%; /* Asegura que las columnas ocupen toda la altura disponible */
+}
+
+.features-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
+/* Footer */
+#footer {
+  position: static; /* Fija el footer en su posición */
+  bottom: 0; /* Asegura que se mantenga en la parte inferior de la ventana */
+  left: 0; /* Se alinea al borde izquierdo */
+  width: 100%; /* Ocupa todo el ancho de la pantalla */
+  background-color: #54686e; /* Color de fondo del footer */
+  color: white; /* Color del texto */
+  text-align: center; /* Centra el contenido */
+  padding: 10px 0; /* Espaciado interno */
+  z-index: 100; /* Se asegura de que esté sobre otros elementos */
+}
+
+
+.footer {
+  background-color: #09ac47;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: white; /* Cambia el color de los íconos */
+  font-size: 24px; /* Tamaño del ícono */
+  margin-right: 10px; /* Espacio entre los íconos */
+  text-decoration: none; /* Quitar subrayado */
+}
+
+.social-icons a:hover {
+  color: #2a9d8f; /* Color al pasar el mouse */
+}
+
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+
+

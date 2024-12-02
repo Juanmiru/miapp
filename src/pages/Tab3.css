@@ -1,0 +1,135 @@
+.confirm-page{
+font-family: Arial, sans-serif;
+text-align: center;
+background-color: #e3f2fd;
+color: #333;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #ffffff;
+padding: 10px 20px;
+}
+
+.logo-section {
+display: flex;
+align-items: center;
+}
+
+.logo {
+height: 50px;
+margin-right: 100px;
+}
+
+.contact-section button {
+border: none;
+padding: 10px 20px;
+margin: 5px;
+border-radius: 5px;
+font-size: 14px;
+cursor: pointer;
+}
+
+.whatsapp-btn {
+background-color: #25d366;
+color: white;
+}
+
+.call-btn {
+background-color: #007bff;
+color: white;
+}
+
+.schedule {
+font-size: 12px;
+}
+
+.main-content {
+padding: 20px;
+}
+
+.confirmation-section .check-icon {
+font-size: 50px;
+color: green;
+}
+
+.reservation-code {
+font-size: 18px;
+color: #000;
+}
+
+.help-section, .contact-section {
+margin-top: 20px;
+}
+/* Footer */
+#footer {
+    position: static; /* Fija el footer en su posición */
+    bottom: 0; /* Asegura que se mantenga en la parte inferior de la ventana */
+    left: 0; /* Se alinea al borde izquierdo */
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    background-color: #54686e; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el contenido */
+    padding: 10px 0; /* Espaciado interno */
+    z-index: 100; /* Se asegura de que esté sobre otros elementos */
+  }
+  
+  
+  .footer {
+    background-color: #09ac47;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    color: white; /* Cambia el color de los íconos */
+    font-size: 24px; /* Tamaño del ícono */
+    margin-right: 10px; /* Espacio entre los íconos */
+    text-decoration: none; /* Quitar subrayado */
+  }
+  
+  .social-icons a:hover {
+    color: #2a9d8f; /* Color al pasar el mouse */
+  }
+  
+  
+  .footer-bottom {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
